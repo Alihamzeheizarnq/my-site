@@ -4,293 +4,1057 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Mironcoder">
-    <meta name="email" content="mironcoder@gmail.com">
-    <meta name="profile" content="https://themeforest.net/user/mironcoder">
+    <meta name="author" content="setinco">
+    <meta name="email" content="setinco@gmail.com">
+    <meta name="profile" content="">
     <meta name="name" content="Portlab">
-    <meta name="type" content="Personal Portfolio">
-    <meta name="title" content="Portlab - Personal Portfolio Bootstrap HTML Template">
+    <meta name="type" content="وب سایت شرکت">
+    <meta name="title" content="Portlab - وب سایت شرکت Bootstrap HTML Template">
     <meta name="keywords" content="portlab, portfolio, personal, html, template, bootstrap, bussiness, clean, creative, resume, cv, designer, responsive, minimal, freelancer">
-    <title>Portlab - Demo</title>
-    <link rel="icon" href="demo/images/favicon.png">
-    <link rel="stylesheet" href="demo/fonts/all.min.css">
-    <link rel="stylesheet" href="demo/bootstrap.min.css">
-    <link rel="stylesheet" href="demo/style.css">
+    <title>Portlab - Home</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="fonts/all.min.css">
+    <link rel="stylesheet" href="css/vendor/slick.min.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom/main.css">
+    <link rel="stylesheet" href="css/custom/index.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container"><a class="navbar-brand" href="#"><img src="demo/images/logo.png" alt="logo"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item"><a class="nav-link" href="#demo-part">دموها</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#feature-part">امکانات</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#theme-part">مضامین</a></li>
-                </ul>
-                <div class="navbar-btn"><a target="_blank" href=""><img src="demo/images/envato.png" alt="envato"><span>هم اکنون بخرید</span></a></div>
+<body><a class="back2top-btn" href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
+    <nav class="navbar-part">
+        <div class="container">
+            <div class="navbar-content"><a class="navbar-logo" href="index.html"><img src="images/logo.png" alt="logo"></a><button class="navbar-toggle" type="button"><i class="fas fa-bars"></i></button>
+                <div class="navbar-slide"><a class="navbar-cross" href="#"><i class="fas fa-times"></i></a>
+                    <ul class="navbar-list">
+                        <li class="navbar-item active"><a class="navbar-link" href="index.html">خانه</a></li>
+                        <li class="navbar-item"><a class="navbar-link" href="resume.html">رزومه</a></li>
+                        <li class="navbar-item navbar-dropdown"><a class="navbar-link dropdown-indicator" href="#"><span>خدمات</span><i class="fas fa-plus"></i></a>
+                            <ul class="dropdown-list">
+                                <li><a class="dropdown-link" href="service-list.html">لیست خدمات</a></li>
+                                <li><a class="dropdown-link" href="service-details.html">جزئیات خدمات</a></li>
+                            </ul>
+                        </li>
+                        <li class="navbar-item navbar-dropdown"><a class="navbar-link dropdown-indicator" href="#"><span>نمونه کار</span><i class="fas fa-plus"></i></a>
+                            <ul class="dropdown-list">
+                                <li><a class="dropdown-link" href="portfolio-list.html">لیست نمونه کار</a></li>
+                                <li><a class="dropdown-link" href="portfolio-details.html">جزئیات نمونه کار</a></li>
+                            </ul>
+                        </li>
+                        <li class="navbar-item navbar-dropdown"><a class="navbar-link dropdown-indicator" href="#"><span>وبلاگ</span><i class="fas fa-plus"></i></a>
+                            <ul class="dropdown-list">
+                                <li><a class="dropdown-link" href="blog-list.html">لیست وبلاگ</a></li>
+                                <li><a class="dropdown-link" href="blog-details.html">جزئیات وبلاگ</a></li>
+                            </ul>
+                        </li>
+                        <li class="navbar-item"><a class="navbar-link" href="contact.html">تماس با ما</a></li>
+                    </ul>
+                    <div class="navbar-btn"><a class="btn btn-inline" href="#"><i class="fas fa-code"></i><span>مشاوره</span></a></div>
+                </div>
             </div>
         </div>
     </nav>
-    <section id="banner-part">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="banner-content">
-                        <h1>Portlab - الگوی HTML نمونه کارها شخصی</h1>
-                        <h3>ساخت با -</h3>
-                        <ul>
-                            <li><img src="demo/images/tool/html.png" alt="html"></li>
-                            <li><img src="demo/images/tool/css.png" alt="css"></li>
-                            <li><img src="demo/images/tool/js.png" alt="js"></li>
-                            <li><img src="demo/images/tool/bs.png" alt="bs"></li>
-                            <li><img src="demo/images/tool/sass.png" alt="sass"></li>
-                            <li><img src="demo/images/tool/jq.png" alt="jq"></li>
-                        </ul><img src="demo/images/portlab-page.png" alt="portlab-page"></div>
+    <section class="banner-part">
+        <div class="banner-bg">
+            <div class="container"><img class="circle-shape" src="images/assets/circle.png" alt="circle"><img class="star-shape" src="images/assets/star.png" alt="star">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="banner-img"><img src="images/banner/hero.png" alt="hero"></div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="banner-content">
+                            <ul class="banner-icon">
+                                <li><a class="icon icon-inline" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="icon icon-inline" href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a class="icon icon-inline" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a class="icon icon-inline" href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="icon icon-inline" href="#"><i class="fab fa-dribbble"></i></a></li>
+                            </ul>
+                            <div class="banner-text"><span>خوش آمدی عزیزم!</span>
+                                <h1>در دنیای توسعه خط مقدم خودم.</h1>
+                                <p>کمک به طراحی وب سایت شخصی و شخصی شما در ساخت تقاضای شما توسط html و wordpress. روی دکمه کار آزمایشی کلیک کنید ، می توانید پروژه قبلی من را ببینید.</p>
+                            </div>
+                            <div class="banner-btn duel-btn"><a class="btn btn-inline" href="resume.html"><i class="fas fa-arrows-alt"></i><span>بیشتر بدانید</span></a><a class="btn btn-inline" href="portfolio-list.html"><i class="fas fa-boxes"></i><span>کار آزمایشی</span></a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <main id="demo-part">
-        <section class="home-part">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-heading">
-                            <h2>دموها</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="demo-card">
-                            <div class="demo-highlight left">
-                                <h3>RTL</h3>
-                            </div>
-                            <div class="demo-img"><img src="demo/images/page/ltr-home.png" alt="home">
-                                <div class="demo-overlay">
-                                    <div class="demo-cover"><a target="_blank" href="assets/ltr-version/index.html" class="btn btn-inline"><i class="fas fa-eye"></i>نمایش  </a></div>
-                                </div>
-                            </div>
-                            <div class="demo-name">
-                                <h4>صفحه اصلی<span>(نسخه RTL)</span></h4>
-                            </div>
-                        </div>
-                    </div>
-              
-                    <div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="demo-card">
-                            <div class="demo-img"><img src="demo/images/page/service-list.jpg" alt="service">
-                                <div class="demo-overlay">
-                                    <div class="demo-cover"><a target="_blank" href="assets/ltr-version/service-list.html" class="btn btn-inline"><i class="fas fa-eye"></i>نمایش</a></div>
-                                </div>
-                            </div>
-                            <div class="demo-name">
-                                <h4>لیست خدمات</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="demo-card">
-                            <div class="demo-img"><img src="demo/images/page/service-details.jpg" alt="service">
-                                <div class="demo-overlay">
-                                    <div class="demo-cover"><a target="_blank" href="assets/ltr-version/service-details.html" class="btn btn-inline"><i class="fas fa-eye"></i>نمایش</a></div>
-                                </div>
-                            </div>
-                            <div class="demo-name">
-                                <h4>جزئیات خدمات</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="demo-card">
-                            <div class="demo-img"><img src="demo/images/page/resume.jpg" alt="resume">
-                                <div class="demo-overlay">
-                                    <div class="demo-cover"><a target="_blank" href="assets/ltr-version/resume.html" class="btn btn-inline"><i class="fas fa-eye"></i>نمایش</a></div>
-                                </div>
-                            </div>
-                            <div class="demo-name">
-                                <h4>رزومه</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="demo-card">
-                            <div class="demo-img"><img src="demo/images/page/port-list.jpg" alt="port-list">
-                                <div class="demo-overlay">
-                                    <div class="demo-cover"><a target="_blank" href="assets/ltr-version/portfolio-list.html" class="btn btn-inline"><i class="fas fa-eye"></i>نمایش</a></div>
-                                </div>
-                            </div>
-                            <div class="demo-name">
-                                <h4>لیست نمونه کارها</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="demo-card">
-                            <div class="demo-img"><img src="demo/images/page/port-details.jpg" alt="port-details">
-                                <div class="demo-overlay">
-                                    <div class="demo-cover"><a target="_blank" href="assets/ltr-version/portfolio-details.html" class="btn btn-inline"><i class="fas fa-eye"></i>نمایش</a></div>
-                                </div>
-                            </div>
-                            <div class="demo-name">
-                                <h4>جزئیات نمونه کارها</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="demo-card">
-                            <div class="demo-img"><img src="demo/images/page/contact.jpg" alt="contact">
-                                <div class="demo-overlay">
-                                    <div class="demo-cover"><a target="_blank" href="assets/ltr-version/contact.html" class="btn btn-inline"><i class="fas fa-eye"></i>نمایش</a></div>
-                                </div>
-                            </div>
-                            <div class="demo-name">
-                                <h4>تماس با ما</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="demo-card">
-                            <div class="demo-img"><img src="demo/images/page/blog-list.jpg" alt="blog-list">
-                                <div class="demo-overlay">
-                                    <div class="demo-cover"><a target="_blank" href="assets/ltr-version/blog-list.html" class="btn btn-inline"><i class="fas fa-eye"></i>نمایش</a></div>
-                                </div>
-                            </div>
-                            <div class="demo-name">
-                                <h4>لیست وبلاگ</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="demo-card">
-                            <div class="demo-img"><img src="demo/images/page/blog-details.jpg" alt="blog-details">
-                                <div class="demo-overlay">
-                                    <div class="demo-cover"><a target="_blank" href="assets/ltr-version/blog-details.html" class="btn btn-inline"><i class="fas fa-eye"></i>نمایش</a></div>
-                                </div>
-                            </div>
-                            <div class="demo-name">
-                                <h4>جزئیات وبلاگ</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="demo-card">
-                            <div class="demo-img"><img src="demo/images/page/error.jpg" alt="blog-details">
-                                <div class="demo-overlay">
-                                    <div class="demo-cover"><a target="_blank" href="assets/ltr-version/error.html" class="btn btn-inline"><i class="fas fa-eye"></i>نمایش</a></div>
-                                </div>
-                            </div>
-                            <div class="demo-name">
-                                <h4>خطای 404</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <section id="feature-part">
+    <section class="section resume-part">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>امکانات</h2>
+                        <p>رزومه <span>من</span></p>
+                        <h2>برخی از اطلاعات اساسی در مورد خودم</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <div class="feature-card">
-                        <div class="feature-img"><img src="demo/images/feature/valid.png" alt="valid"></div>
-                        <div class="feature-text">
-                            <h5>W3C معتبر است<span>کد</span></h5>
+                <div class="col-lg-12">
+                    <ul class="resume-cate-btn">
+                        <li><button class="cate-btn active" onclick="filter('about-part')"><i class="fas fa-user"></i><span>درمورد من</span></button></li>
+                        <li><button class="cate-btn" onclick="filter('exper-part')"><i class="fas fa-user-tie"></i><span>تجربه</span></button></li>
+                        <li><button class="cate-btn" onclick="filter('edu-part')"><i class="fas fa-user-graduate"></i><span>تحصیلات</span></button></li>
+                        <li><button class="cate-btn" onclick="filter('refer-part')"><i class="fas fa-users"></i><span>مرجع</span></button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section about-part cate-active">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="about-summery">
+                        <h3>من محمود الحسن (میرون) هستم</h3>
+                        <p>من با مجموعه مهارت های فنی گسترده ، توجه بسیار قوی به جزئیات و 3 سال تجربه در زمینه توسعه وب جلویی دارم. قادر به چند وظیفه ای و همزمان با فشار دادن چندین پروژه فشار دادن در بالای آخرین روندها و فن آوری ها. توانایی بداهه پردازی ، عیب یابی ، مالکیت و مهمتر از همه یادگیری مهارت های جدید در کار.</p>
+                    </div>
+                    <div class="about-list">
+                        <ul>
+                            <li>
+                                <h6>روز تولد:</h6>
+                                <p>31 مرداد 1374</p>
+                            </li>
+                            <li>
+                                <h6>زندگی می کند در:</h6>
+                                <p>ایران،شهرکرد</p>
+                            </li>
+                            <li>
+                                <h6>سایت اینترنتی:</h6>
+                                <p>www.setinco.com</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h6>تلفن:</h6>
+                                <p>09162352304</p>
+                            </li>
+                            <li>
+                                <h6>اسکایپ:</h6>
+                                <p>-</p>
+                            </li>
+                            <li>
+                                <h6>لینک شده:</h6>
+                                <p>-</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-btn duel-btn"><a class="btn btn-inline" href="images/miron-cv.pdf" download><i class="fas fa-download"></i><span>بارگیری </span></a><a class="btn btn-inline" href="contact.html"><i class="fas fa-headset"></i><span>با من تماس بگیر</span></a></div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="about-img"><img src="images/banner/about.png" alt="about"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section exper-part cate-active">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <div class="resume-card">
+                        <div class="resume-content">
+                            <div class="resume-icon"><i class="fas fa-award"></i></div>
+                            <div class="resume-meta">
+                                <h4>توسعه دهنده</h4>
+                                <h5>گروه ستین</h5>
+                                <h6>فروردین 1399 - فروردین 1400 </h6>
+                            </div>
+                        </div>
+                        <div class="resume-text">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <div class="feature-card">
-                        <div class="feature-img"><img src="demo/images/feature/responsive.png" alt="responsive"></div>
-                        <div class="feature-text">
-                            <h5>دستگاه عالی <span>پاسخگو</span></h5>
+                <div class="col-md-6 col-lg-6">
+                    <div class="resume-card">
+                        <div class="resume-content">
+                            <div class="resume-icon"><i class="fas fa-award"></i></div>
+                            <div class="resume-meta">
+                                <h4>توسعه دهنده</h4>
+                                <h5>گروه ستین</h5>
+                                <h6>فروردین 1399 - فروردین 1400 </h6>
+                            </div>
+                        </div>
+                        <div class="resume-text">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <div class="feature-card">
-                        <div class="feature-img"><img src="demo/images/feature/customize.png" alt="customize"></div>
-                        <div class="feature-text">
-                            <h5>راه آسان برای<span>سفارشی کردن</span></h5>
+                <div class="col-md-6 col-lg-6">
+                    <div class="resume-card">
+                        <div class="resume-content">
+                            <div class="resume-icon"><i class="fas fa-award"></i></div>
+                            <div class="resume-meta">
+                                <h4>توسعه دهنده</h4>
+                                <h5>گروه ستین</h5>
+                                <h6>فروردین 1399 - فروردین 1400 </h6>
+                            </div>
+                        </div>
+                        <div class="resume-text">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <div class="feature-card">
-                        <div class="feature-img"><img src="demo/images/feature/document.png" alt="document"></div>
-                        <div class="feature-text">
-                            <h5>خوب غیر قابل تحمل<span>اسناد</span></h5>
+                <div class="col-md-6 col-lg-6">
+                    <div class="resume-card">
+                        <div class="resume-content">
+                            <div class="resume-icon"><i class="fas fa-award"></i></div>
+                            <div class="resume-meta">
+                                <h4>توسعه دهنده</h4>
+                                <h5>گروه ستین</h5>
+                                <h6>فروردین 1399 - فروردین 1400 </h6>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <div class="feature-card">
-                        <div class="feature-img"><img src="demo/images/feature/support.png" alt="support"></div>
-                        <div class="feature-text">
-                            <h5>به سرعت <span>سیستم پشتیبانی</span></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <div class="feature-card">
-                        <div class="feature-img"><img src="demo/images/feature/browser.png" alt="browser"></div>
-                        <div class="feature-text">
-                            <h5>مرورگر متقاطع<span>سازگار</span></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <div class="feature-card">
-                        <div class="feature-img"><img src="demo/images/feature/update.png" alt="update"></div>
-                        <div class="feature-text">
-                            <h5>طول عمر <span>به روز رسانی رایگان</span></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <div class="feature-card">
-                        <div class="feature-img"><img src="demo/images/feature/layout.png" alt="layout"></div>
-                        <div class="feature-text">
-                            <h5>طرح ساپارات <span>چیدمان ها</span></h5>
+                        <div class="resume-text">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="footer-part">
+    <section class="section edu-part cate-active">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <div class="resume-card">
+                        <div class="resume-content">
+                            <div class="resume-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="resume-meta">
+                                <h4>نرم افزار کامپیوتر</h4>
+                                <h5>دانشگاه فنی</h5>
+                                <h6> مهر 1392 تا الان</h6>
+                            </div>
+                        </div>
+                        <div class="resume-text">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="resume-card">
+                        <div class="resume-content">
+                            <div class="resume-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="resume-meta">
+                                <h4>نرم افزار کامپیوتر</h4>
+                                <h5>دانشگاه فنی</h5>
+                                <h6> مهر 1392 تا الان</h6>
+                            </div>
+                        </div>
+                        <div class="resume-text">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="resume-card">
+                        <div class="resume-content">
+                            <div class="resume-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="resume-meta">
+                                <h4>نرم افزار کامپیوتر</h4>
+                                <h5>دانشگاه فنی</h5>
+                                <h6> مهر 1392 تا الان</h6>
+                            </div>
+                        </div>
+                        <div class="resume-text">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="resume-card">
+                        <div class="resume-content">
+                            <div class="resume-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="resume-meta">
+                                <h4>نرم افزار کامپیوتر</h4>
+                                <h5>دانشگاه فنی</h5>
+                                <h6> مهر 1392 تا الان</h6>
+                            </div>
+                        </div>
+                        <div class="resume-text">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section refer-part cate-active">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="refer-card">
+                        <div class="refer-img"><img src="images/reference/01.jpg" alt="reference"></div>
+                        <div class="refer-content">
+                            <h4>لیدی واتسونا</h4>
+                            <p>معاون مدیر<span>موسسه ستین کو</span></p>
+                            <ul class="refer-contact">
+                                <li><a class="icon icon-inline" href="#"><i class="fas fa-phone-alt"></i></a></li>
+                                <li><a class="icon icon-inline" href="#"><i class="fas fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="refer-card">
+                        <div class="refer-img"><img src="images/reference/02.jpg" alt="reference"></div>
+                        <div class="refer-content">
+                            <h4>لیدی واتسونا</h4>
+                            <p>معاون مدیر <span>موسسه ستین کو</span></p>
+                            <ul class="refer-contact">
+                                <li><a class="icon icon-inline" href="#"><i class="fas fa-phone-alt"></i></a></li>
+                                <li><a class="icon icon-inline" href="#"><i class="fas fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section service-part">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <ul>
+                    <div class="section-heading">
+                        <p>خدمات  <span>من</span></p>
+                        <h2>من بسیار علاقه مند به این خدمات هستم</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <h3>1</h3><span class="flaticon-seo"></span><i class="flaticon-seo"></i>
+                        <h4>توسعه وب</h4>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p><a href="service-details.html">دیدن جزئیات</a></div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card service-ghape">
+                        <h3>2</h3><span class="flaticon-development"></span><i class="flaticon-development"></i>
+                        <h4>توسعه نرم افزار</h4>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p><a href="service-details.html">دیدن جزئیات</a></div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <h3>3</h3><span class="flaticon-smartphone"></span><i class="flaticon-smartphone"></i>
+                        <h4>توسعه برنامه</h4>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p><a href="service-details.html">دیدن جزئیات</a></div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <h3>4</h3><span class="flaticon-artwork"></span><i class="flaticon-artwork"></i>
+                        <h4>طراحی گرافیک</h4>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p><a href="service-details.html">دیدن جزئیات</a></div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card service-ghape">
+                        <h3>5</h3><span class="flaticon-computer"></span><i class="flaticon-computer"></i>
+                        <h4>طراحی Ui / Ux</h4>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p><a href="service-details.html">دیدن جزئیات</a></div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <h3>6</h3><span class="flaticon-promotion"></span><i class="flaticon-promotion"></i>
+                        <h4>بازاریابی دیجیتال</h4>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p><a href="service-details.html">دیدن جزئیات</a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="service-btn"><a class="btn btn-inline" href="service.html"><i class="far fa-eye"></i><span>مشاهده همه لیست ها</span></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section coding-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <p>کد <span>ساختار</span></p>
+                        <h2>چگونه می توان ساختار برنامه نویسی خود را تنظیم کرد</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="coding-content">
+                        <h3>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ <span>لورم ایپسوم متن ساختگی</span></h3>
+                        <p>بلوک ها ، عناصر و اصلاح کننده ها. یک ساختار هوشمند HTML / CSS که به راحتی قابل استفاده مجدد است. طرح بندی با هدف مدولار بودن انجام می شود.</p>
+                    </div>
+                    <ul class="coding-list">
+                        <li><span class="coding-round"></span>
+                            <p>ساختار کد HTML ساده و هوشمند</p>
+                        </li>
+                        <li><span class="coding-round"></span>
+                            <p>دوباره در هر قسمت از طرح کار می کند</p>
+                        </li>
+                        <li><span class="coding-round"></span>
+                            <p>از عناصر یک طرح به طرح دیگر استفاده مجدد کنید</p>
+                        </li>
+                        <li><span class="coding-round"></span>
+                            <p>در همه دستگاه ها به نظر می رسد کد پاسخگو</p>
+                        </li>
+                        <li><span class="coding-round"></span>
+                            <p>نظر معنی دار در هر بخش</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="coding-img"><img src="images/banner/coding.jpg" alt="coding"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section port-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <p>من <span>نمونه کار</span></p>
+                        <h2>به برخی از پروژه های برجسته من نگاهی بیندازید</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="port-slider">
+                        <div class="port-card">
+                            <div class="port-img"><img src="images/portfolio/01.jpg" alt="portfolio"></div>
+                            <div class="port-oly">
+                                <div class="port-btn"><a class="btn btn-inline" href="#">پیش نمایش زنده</a><a class="btn btn-inline" href="#">دیدن جزئیات</a></div>
+                                <div class="port-text">
+                                    <h6>وب سایت شرکت</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="port-card">
+                            <div class="port-img"><img src="images/portfolio/02.jpg" alt="portfolio"></div>
+                            <div class="port-oly">
+                                <div class="port-btn"><a class="btn btn-inline" href="#">پیش نمایش زنده</a><a class="btn btn-inline" href="#">دیدن جزئیات</a></div>
+                                <div class="port-text">
+                                    <h6>وب سایت شرکت</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="port-card">
+                            <div class="port-img"><img src="images/portfolio/03.jpg" alt="portfolio"></div>
+                            <div class="port-oly">
+                                <div class="port-btn"><a class="btn btn-inline" href="#">پیش نمایش زنده</a><a class="btn btn-inline" href="#">دیدن جزئیات</a></div>
+                                <div class="port-text">
+                                    <h6>وب سایت شرکت</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="port-card">
+                            <div class="port-img"><img src="images/portfolio/04.jpg" alt="portfolio"></div>
+                            <div class="port-oly">
+                                <div class="port-btn"><a class="btn btn-inline" href="#">پیش نمایش زنده</a><a class="btn btn-inline" href="#">دیدن جزئیات</a></div>
+                                <div class="port-text">
+                                    <h6>وب سایت شرکت</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="port-card">
+                            <div class="port-img"><img src="images/portfolio/05.jpg" alt="portfolio"></div>
+                            <div class="port-oly">
+                                <div class="port-btn"><a class="btn btn-inline" href="#">پیش نمایش زنده</a><a class="btn btn-inline" href="#">دیدن جزئیات</a></div>
+                                <div class="port-text">
+                                    <h6>وب سایت شرکت</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="port-show-btn"><a class="btn btn-inline" href="portfolio-list.html"><i class="far fa-eye"></i><span>اطلاعات بیشتر</span></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section skills-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <p>مهارت های <span>من</span></p>
+                        <h2>متخصص در این نرم افزار وب فنی</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row skills-parent">
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="images/skill/html.png" alt="html"></div>
+                        <div class="skills-name">
+                            <p>html</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="images/skill/css.png" alt="css"></div>
+                        <div class="skills-name">
+                            <p>css</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="images/skill/javascript.png" alt="javascript"></div>
+                        <div class="skills-name">
+                            <p>جاوا اسکریپت</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="images/skill/bootstrap.png" alt="bootstrap"></div>
+                        <div class="skills-name">
+                            <p>بوت استرپ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="images/skill/jquery.png" alt="jquery"></div>
+                        <div class="skills-name">
+                            <p>جی کوئری</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="images/skill/sass.png" alt="sass"></div>
+                        <div class="skills-name">
+                            <p>sass</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="images/skill/wordpress.png" alt="wordpress"></div>
+                        <div class="skills-name">
+                            <p>وردپرس</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="images/skill/react.png" alt="react"></div>
+                        <div class="skills-name">
+                            <p>react</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="images/skill/github.png" alt="github"></div>
+                        <div class="skills-name">
+                            <p>گیتاب</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="images/skill/vscode.png" alt="vscode"></div>
+                        <div class="skills-name">
+                            <p>vscode</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="images/skill/photoshop.png" alt="photoshop"></div>
+                        <div class="skills-name">
+                            <p>فتوشاپ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="skills-card">
+                        <div class="skills-img"><img src="images/skill/illustrator.png" alt="illustrator"></div>
+                        <div class="skills-name">
+                            <p>illustrator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discuss-part">
+        <div class="container">
+            <div class="discuss-oly">
+                <div class="row discuss-bg">
+                    <div class="col-md-7 col-lg-8">
+                        <div class="discuss-content">
+                            <h3>بیایید ایده شما را بحث کنیم</h3>
+                            <p>آیا در مورد وب سایت آینده خود فکر کرده اید؟ من همیشه اینجا هستم.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                        <div class="discuss-btn"><a class="btn btn-inline" href="contact.html"><i class="fas fa-paper-plane"></i><span>در تماس باشید</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="counter-part">
+        <div class="counter-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-lg-4">
+                        <div class="counter-card count-1"><i class="flaticon-project-management"></i>
+                            <div class="counter-info">
+                                <h3><span class="counter-number">122</span>+</h3>
+                                <p>پروژه به اتمام رسید</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="counter-card count-2"><i class="flaticon-handshake"></i>
+                            <div class="counter-info">
+                                <h3><span class="counter-number">108</span>+</h3>
+                                <p>مشتری های راضی</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="counter-card count-3"><i class="flaticon-hand-gesture"></i>
+                            <div class="counter-info">
+                                <h3><span class="counter-number">98</span>%</h3>
+                                <p>بازخورد مثبت</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section pricing-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <p>برنامه <span>قیمت گذاری</span></p>
+                        <h2>طرح قیمت گذاری با بحث تغییر خواهد کرد</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="pricing-card">
+                        <div class="pricing-money">
+                            <h3>پایه ای</h3>
+                            <h4>30000</h4>
+                            <p>در هر پروژه</p>
+                        </div>
+                        <ul class="pricing-list">
+                            <li>یک صفحه فرود</li>
+                            <li>با پاسخگو</li>
+                            <li>طراحی مدرن</li>
+                            <li>چهار بخش</li>
+                            <li>چهار بخش</li>
+                        </ul>
+                        <div class="pricing-btn"><a class="btn btn-inline" href="#"><i class="fas fa-paper-plane"></i><span>طرح خرید</span></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="pricing-card pricing-recom">
+                        <div class="pricing-money">
+                            <h3>استاندارد</h3>
+                            <h4>30000</h4>
+                            <p>در هر پروژه</p>
+                        </div>
+                        <ul class="pricing-list">
+                            <li>یک صفحه فرود</li>
+                            <li>با پاسخگو</li>
+                            <li>طراحی مدرن</li>
+                            <li>چهار بخش</li>
+                            <li>چهار بخش</li>
+                        </ul>
+                        <div class="pricing-btn"><a class="btn btn-inline" href="#"><i class="fas fa-paper-plane"></i><span>طرح خرید</span></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="pricing-card">
+                        <div class="pricing-money">
+                            <h3>حرفه ای</h3>
+                            <h4>30000</h4>
+                            <p>در هر پروژه</p>
+                        </div>
+                        <ul class="pricing-list">
+                            <li>یک صفحه فرود</li>
+                            <li>با پاسخگو</li>
+                            <li>طراحی مدرن</li>
+                            <li>سه تجدید نظر</li>
+                            <li>چهار بخش</li>
+                        </ul>
+                        <div class="pricing-btn"><a class="btn btn-inline" href="#"><i class="fas fa-paper-plane"></i><span>طرح خرید</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section faq-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <p>پرسش و پاسخ <span>درخواست</span></p>
+                        <h2>سوال خود را قبل از اینکه با هم کار کنیم پیدا کنید</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <div class="faq-parent">
+                        <div class="faq-child">
+                            <div class="faq-que"><button>برای ثبت سفارش شما چه کاری باید انجام شود؟</button></div>
+                            <div class="faq-ans">
+                                <p>خوب هرگز این اتفاق نیفتاده است. در این صورت اگر طراحی شما کاملاً برآورده نکند ، برای شما دوباره طراحی می کنم.</p>
+                            </div>
+                        </div>
+                        <div class="faq-child">
+                            <div class="faq-que"><button>برای ثبت سفارش شما چه کاری باید انجام شود؟</button></div>
+                            <div class="faq-ans">
+                                <p>خوب هرگز این اتفاق نیفتاده است. در این صورت اگر طراحی شما کاملاً برآورده نکند ، برای شما دوباره طراحی می کنم.</p>
+                            </div>
+                        </div>
+                        <div class="faq-child">
+                            <div class="faq-que"><button>برای ثبت سفارش شما چه کاری باید انجام شود؟</button></div>
+                            <div class="faq-ans">
+                                <p>خوب هرگز این اتفاق نیفتاده است. در این صورت اگر طراحی شما کاملاً برآورده نکند ، برای شما دوباره طراحی می کنم.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="faq-parent">
+                        <div class="faq-child">
+                            <div class="faq-que"><button>برای ثبت سفارش شما چه کاری باید انجام شود؟</button></div>
+                            <div class="faq-ans">
+                                <p>خوب هرگز این اتفاق نیفتاده است. در این صورت اگر طراحی شما کاملاً برآورده نکند ، برای شما دوباره طراحی می کنم.</p>
+                            </div>
+                        </div>
+                        <div class="faq-child">
+                            <div class="faq-que"><button>برای ثبت سفارش شما چه کاری باید انجام شود؟ </button></div>
+                            <div class="faq-ans">
+                                <p>خوب هرگز این اتفاق نیفتاده است. در این صورت اگر طراحی شما کاملاً برآورده نکند ، برای شما دوباره طراحی می کنم.</p>
+                            </div>
+                        </div>
+                        <div class="faq-child">
+                            <div class="faq-que"><button>برای ثبت سفارش شما چه کاری باید انجام شود؟</button></div>
+                            <div class="faq-ans">
+                                <p>خوب هرگز این اتفاق نیفتاده است. در این صورت اگر طراحی شما کاملاً برآورده نکند ، برای شما دوباره طراحی می کنم.</p>
+                            </div>
+                        </div>
+                        <div class="faq-child">
+                            <div class="faq-que"><button>برای ثبت سفارش شما چه کاری باید انجام شود؟</button></div>
+                            <div class="faq-ans">
+                                <p>خوب هرگز این اتفاق نیفتاده است. در این صورت اگر طراحی شما کاملاً برآورده نکند ، برای شما دوباره طراحی می کنم.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section testi-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <p>بازخورد <span>مشتریان</span></p>
+                        <h2>بازخورد خارق العاده ای از مشتریان دریافت کرد</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="testi-slider">
+                        <div class="testi-card"><i class="flaticon-favorites"></i>
+                            <div class="testi-quote">
+                                <p>طراحی و همکاری گسترده من از کار با او راضی هستم.  </p>
+                            </div>
+                            <div class="testi-meta">
+                                <h5>آستین هوستون</h5>
+                                <p>رم، ایتالیا</p><a href="#"><img src="images/testimonial/01.jpg" alt="testimonial"></a></div>
+                        </div>
+                        <div class="testi-card"><i class="flaticon-favorites"></i>
+                            <div class="testi-quote">
+                                <p>طراحی و همکاری گسترده من از کار با او راضی هستم.  </p>
+                            </div>
+                            <div class="testi-meta">
+                                <h5>آستین هوستون</h5>
+                                <p>رم، ایتالیا</p><a href="#"><img src="images/testimonial/02.jpg" alt="testimonial"></a></div>
+                        </div>
+                        <div class="testi-card"><i class="flaticon-favorites"></i>
+                            <div class="testi-quote">
+                                <p>طراحی و همکاری گسترده من از کار با او راضی هستم.  </p>
+                            </div>
+                            <div class="testi-meta">
+                                <h5>آستین هوستون</h5>
+                                <p>رم، ایتالیا</p><a href="#"><img src="images/testimonial/03.jpg" alt="testimonial"></a></div>
+                        </div>
+                        <div class="testi-card"><i class="flaticon-favorites"></i>
+                            <div class="testi-quote">
+                                <p>طراحی و همکاری گسترده من از کار با او راضی هستم.  </p>
+                            </div>
+                            <div class="testi-meta">
+                                <h5>آستین هوستون</h5>
+                                <p>رم، ایتالیا</p><a href="#"><img src="images/testimonial/04.jpg" alt="testimonial"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="testi-btn"><a class="btn btn-inline" href="#"><i class="fas fa-tint"></i><span>نقل قول</span></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section blog-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <p>من <span>وبلاگ</span></p>
+                        <h2>چند مقاله در مورد فعالیت و تجربه من</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-card">
+                        <div class="blog-img"><img src="images/blog/01.jpg" alt="blog">
+                            <div class="blog-oly">
+                                <p>جاوا اسکریپت</p>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <ul class="blog-meta">
+                                <li><i class="fas fa-clock"></i>
+                                    <p>2 فروردین 1400</p>
+                                </li>
+                                <li><i class="fas fa-share-alt"></i>
+                                    <p>5 اشتراک</p>
+                                </li>
+                            </ul>
+                            <div class="blog-text">
+                                <h4><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</a></h4>
+                            </div>
+                            <ul class="blog-link">
+                                <li><a class="btn btn-inline" href="#">خواندن</a></li>
+                                <li><i class="fas fa-comments"></i>
+                                    <p>13 نظر</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-card">
+                        <div class="blog-img"><img src="images/blog/02.jpg" alt="blog">
+                            <div class="blog-oly">
+                                <p>جاوا اسکریپت</p>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <ul class="blog-meta">
+                                <li><i class="fas fa-clock"></i>
+                                    <p>2 فروردین 1400</p>
+                                </li>
+                                <li><i class="fas fa-share-alt"></i>
+                                    <p>5 اشتراک</p>
+                                </li>
+                            </ul>
+                            <div class="blog-text">
+                                <h4><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</a></h4>
+                            </div>
+                            <ul class="blog-link">
+                                <li><a class="btn btn-inline" href="#">خواندن</a></li>
+                                <li><i class="fas fa-comments"></i>
+                                    <p>13 نظر</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="blog-suggest">
+                                <div class="suggest-img"><a href="#"><img src="images/blog-suggest/01.jpg" alt="blog-suggest"></a></div>
+                                <div class="suggest-content">
+                                    <div class="suggest-title">
+                                        <h6><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</a></h6>
+                                    </div>
+                                    <div class="suggest-date"><i class="fas fa-clock"></i>
+                                        <p>2 فروردین 1400</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="blog-suggest">
+                                <div class="suggest-img"><a href="#"><img src="images/blog-suggest/02.jpg" alt="blog-suggest"></a></div>
+                                <div class="suggest-content">
+                                    <div class="suggest-title">
+                                        <h6><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</a></h6>
+                                    </div>
+                                    <div class="suggest-date"><i class="fas fa-clock"></i>
+                                        <p>2 فروردین 1400</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="blog-suggest">
+                                <div class="suggest-img"><a href="#"><img src="images/blog-suggest/03.jpg" alt="blog-suggest"></a></div>
+                                <div class="suggest-content">
+                                    <div class="suggest-title">
+                                        <h6><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</a></h6>
+                                    </div>
+                                    <div class="suggest-date"><i class="fas fa-clock"></i>
+                                        <p>2 فروردین 1400</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog-btn"><a class="btn btn-inline" href="blog-list.html"><i class="far fa-eye"></i><span>اطلاعات بیشتر</span></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section contact-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <p>با من <span>تماس بگیرید</span></p>
+                        <h2>من همیشه برای بحث زمان باز باز هستم</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-4 col-lg-4">
+                    <div class="contact-address">
+                        <div class="address-icon"><i class="fas fa-phone"></i></div>
+                        <div class="address-text">
+                            <h4>تلفن</h4>
+                            <p>09162352304 <span>09162352304</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="contact-address">
+                        <div class="address-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="address-text">
+                            <h4>پست الکترونیک</h4>
+                            <p>setinco@gmail.com <span>setinco@gmail.com</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="contact-address">
+                        <div class="address-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="address-text">
+                            <h4>محل</h4>
+                            <p>ایران،یزد <span>ایران،شهرکرد</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-7">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group"><input type="text" class="form-control" placeholder="نام"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group"><input type="email" class="form-control" placeholder="ایمیل"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group"><input type="text" class="form-control" placeholder="موضوع"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group"><input type='file'/><span id='val'></span><span class="selectFile" id='button'>انتخاب</span></div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group"><textarea class="form-control" placeholder="پیام"></textarea></div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-btn"><button class="btn btn-inline" type="submit"><i class="fas fa-paper-plane"></i><span>ارسال</span></button></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <div class="contact-img"><img src="images/banner/contact.png" alt="contact"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section footer-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-logo"><a href="#"><img src="images/logo.png" alt="logo"></a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="footer-icon">
+                        <li><a class="icon icon-inline" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="icon icon-inline" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="icon icon-inline" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a class="icon icon-inline" href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="icon icon-inline" href="#"><i class="fab fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="footer-text">
                         <li>
-                            <h5>&copy; کپی رایت - <span>1400</span></h5>
+                            <h6>&copy; کپی رایت - <span>1400</span></h6>
                         </li>
                         <li>
-                            <h5>کلیه حقوق محفوظ است توسط - <a target="_blank" href=""> setinco </a></h5>
+                            <h6>توسعه یافته توسط - <a target="_blank" href="">setinco</a></h6>
                         </li>
                         <li>
-                            <h5> توسعه یافته توسط <a target="_blank" href=""> setinco </a></h5>
+                           <h6>کلیه حقوق محفوظ است - <a target="_blank" href="">setinco</a></h6>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <script src="demo/jquery-3.2.1.slim.min.js"></script>
-    <script src="demo/popper.min.js"></script>
-    <script src="demo/bootstrap.min.js"></script>
-    <script src="demo/script.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/slick.min.js"></script>
+    <script src="js/custom/slick.js"></script>
+    <script src="js/vendor/counterup.min.js"></script>
+    <script src="js/vendor/waypoints.min.js"></script>
+    <script src="js/custom/counterup.js"></script>
+    <script src="js/custom/main.js"></script>
+
+<script>
+
+</script>
 </body>
 
 </html>
